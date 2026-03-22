@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "human",
+  "description": "Write like a human skill for Claude Code. Enforces natural conversational style for Chinese and eliminates AI writing patterns for English.",
+  "owner": {
+    "name": "Tw93",
+    "email": "hitw93@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "human",
+      "description": "Write prose that sounds human. Chinese follows Tw93's natural style; English eliminates AI tells.",
+      "version": "0.1.0",
+      "category": "writing",
+      "source": "./skills/human",
+      "homepage": "https://github.com/tw93/human"
+    }
+  ]
+}

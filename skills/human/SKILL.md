@@ -1,7 +1,7 @@
 ---
 name: human
-description: Use when asked to write or edit prose in Chinese or English.
-version: 0.1.0
+description: Use ONLY when explicitly asked to write or edit prose — Chinese or English. Enforces Tw93's natural style for Chinese, and eliminates AI writing patterns for English.
+version: 2.0.0
 disable-model-invocation: true
 ---
 

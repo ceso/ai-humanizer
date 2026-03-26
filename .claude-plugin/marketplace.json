@@ -1,19 +1,19 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "human",
-  "description": "Write like a human skill for Claude Code. Enforces natural conversational style for Chinese and eliminates AI writing patterns for English.",
+  "name": "ai-humanizer",
+  "description": "Write like a human skill for Claude Code. Enforces ceso's natural Rioplatense style for Spanish and eliminates AI writing patterns for English and German.",
   "owner": {
-    "name": "Tw93",
-    "email": "hitw93@gmail.com"
+    "name": "ceso",
+    "email": ""
   },
   "plugins": [
     {
-      "name": "human",
-      "description": "Write prose that sounds human. Chinese follows Tw93's natural style; English eliminates AI tells.",
-      "version": "0.1.0",
+      "name": "ai-humanizer",
+      "description": "Write prose that sounds human. Eliminates AI tells in English and German. Enforces ceso's natural Rioplatense style for Spanish.",
+      "version": "1.0.0",
       "category": "writing",
-      "source": "./skills/human",
-      "homepage": "https://github.com/tw93/human"
+      "source": "./skills/ai-humanizer",
+      "homepage": "https://github.com/ceso/ai-humanizer"
     }
   ]
 }

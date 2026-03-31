@@ -1,3 +1,5 @@
+> Fork of [tw93/human](https://github.com/tw93/human). Thanks to [Tw93](https://twitter.com/AiTw93) for the original skill. Check the [original repo](https://github.com/tw93/human) for the Chinese writing scenario and English upstream updates.
+
 <div align="center">
   <h1>AI Humanizer</h1>
   <p><em>Write like a human skill for Claude Code. v1.0.1</em></p>
@@ -9,8 +11,6 @@
 <br/>
 
 A Claude Code skill that enforces ceso's natural Rioplatense style for Spanish and removes AI writing patterns from prose in English and German.
-
-> Fork of [tw93/human](https://github.com/tw93/human). Thanks to [Tw93](https://twitter.com/AiTw93) for the original skill. Check the [original repo](https://github.com/tw93/human) for the Chinese writing scenario and English upstream updates.
 
 ## Install
 

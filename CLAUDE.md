@@ -1,11 +1,19 @@
 # AI Humanizer
 
-Write like a human skill for Claude Code. Enforces ceso's natural Rioplatense style for Spanish and eliminates AI writing patterns for English and German.
+Write like a human skill for Claude Code. Eliminates AI writing patterns for English and German. Enforces ceso's natural Rioplatense style for Conversational Spanish and a controlled literary Spanish for General Spanish (modeled on Borges, Onetti, and Cortázar).
 
 ## Communication
 
 - Do not use em dashes (U+2014) in any output. Use commas, periods, colons, or semicolons instead.
 - This also applies to skill templates, examples, and any example output embedded in `skills/ai-humanizer/`.
+
+## Language Modes
+
+- English: apply 'English Scenario'
+- German: apply 'Deutsches Szenario'
+- Spanish:
+  - Conversational: apply 'Escenario Español - Conversacional'
+  - General: apply 'Escenario Español - General'
 
 ## Structure
 

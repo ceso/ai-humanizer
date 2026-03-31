@@ -1,6 +1,7 @@
 ---
 name: ai-humanizer
-description: Use ONLY when explicitly asked to write or edit prose — English, Spanish, or German. Eliminates AI writing patterns for English and German. Enforces ceso's natural Rioplatense style for Spanish.
+description: Use ONLY when explicitly asked to write or edit prose — English, Spanish (General or Conversational), or German. Eliminates AI writing patterns for English and German.
+Enforces ceso's natural Rioplatense style for Conversational Spanish & a controlled, human, literary Spanish for General Spanish modeled after Jorge Luis Borges, Juan Carlos Onetti & Julio Cortázar.
 disable-model-invocation: true
 ---
 
@@ -13,6 +14,16 @@ Pick the matching rule set based on the content's language. English content uses
 ## English Scenario
 
 Eliminate predictable AI writing patterns. Write like a human: varied, imperfect, specific.
+
+---
+
+### Style Reference (implicit, not imitative)
+
+- George Orwell: clarity, directness, concrete language. Every sentence states something specific. No abstraction without example.
+- Ernest Hemingway: economy, short sentences, controlled tone. No excess description. Let implication carry weight.
+- Joan Didion: controlled subjectivity, precise observation, natural rhythm. Avoid rigid structure, allow subtle tension.
+
+---
 
 ### Core Rules
 
@@ -202,7 +213,191 @@ Below 35/50: revise.
 
 ---
 
-## Escenario Español
+## Escenario Español - General
+
+Eliminá los patrones previsibles de escritura artificial. Escribí con precisión, ritmo y control. La prosa tiene que sonar pensada, no generada.
+
+---
+
+### Referencia de estilo (implícita, no imitativa)
+
+- Jorge Luis Borges: precisión léxica, economía, cada frase introduce una idea clara. Evitar exceso descriptivo.
+- Juan Carlos Onetti: leve aspereza, cierta densidad, no todo se explica. Permitir ambigüedad controlada.
+- Julio Cortázar: ritmo natural, variación sintáctica, evitar rigidez formal.
+
+---
+
+### Reglas centrales
+
+1. **Sacá el relleno.** Eliminá introducciones vacías, muletillas de énfasis y todos los adverbios.
+2. **Rompé estructuras formulaicas.** Evitá contrastes binarios, listas negativas, dramatización artificial, preguntas retóricas y falsa agencia.
+3. **Usá voz activa.** Cada oración necesita un sujeto humano que actúe. Nada de abstracciones haciendo cosas.
+4. **Sé concreto.** Evitá declaraciones vagas. Nombrá cosas, personas y acciones específicas.
+5. **Escribí desde adentro.** Evitá la voz distante. El texto tiene que estar en contacto con lo que describe.
+6. **Variá el ritmo.** Mezclá oraciones cortas y largas. Evitá patrones repetidos.
+7. **Confiá en el lector.** No expliques de más ni prepares cada idea.
+8. **Cortá frases hechas.** Si suena a cita brillante, reescribilo.
+
+---
+
+### Elección de palabras
+
+**Adverbios sobreusados, eliminarlos todos:**
+"realmente", "simplemente", "básicamente", "fundamentalmente", "notablemente", "claramente", "evidentemente"
+
+> ❌ "cambia fundamentalmente la forma de pensar"
+> ✅ Decí qué cambia.
+
+---
+
+**Vocabulario inflado, reemplazar con lenguaje directo:**
+
+| Evitar | Usar |
+|--------|------|
+| profundizar | examinar, mirar |
+| utilizar | usar |
+| implementar | aplicar |
+| optimizar | mejorar |
+| paradigma | modelo, enfoque |
+| sinergia | combinación |
+| ecosistema | entorno, campo |
+| panorama | situación |
+| disruptivo | relevante, nuevo |
+| complejo (como muletilla) | específico |
+
+---
+
+**Copulas infladas, usar "es":**
+> ❌ "representa", "constituye", "implica" (cuando no aporta matiz)  
+> ✅ "es"
+
+---
+
+### Estructuras a evitar
+
+**Contraste negativo (muy común en IA):**
+> ❌ "No es X, es Y"
+> ✅ Decí Y directamente
+
+---
+
+**Enumeración dramática:**
+> ❌ "No es un error. No es casualidad. Es un problema estructural."
+> ✅ "Es un problema estructural."
+
+---
+
+**Pregunta retórica:**
+> ❌ "¿El resultado? Un fracaso."
+> ✅ "El resultado fue un fracaso."
+
+---
+
+**Repetición de inicio (anáfora):**
+> ❌ "Esto muestra… Esto confirma… Esto implica…"
+> ✅ Una sola estructura clara
+
+---
+
+**Fragmentación artificial:**
+> ❌ "Lo dijo. En público. Sin matices."
+> ✅ Oración completa
+
+---
+
+**Falsa agencia (objetos actuando):**
+> ❌ "el informe revela", "los datos dicen"
+> ✅ "el equipo mostró", "los investigadores encontraron"
+
+---
+
+### Patrones de tono a evitar
+
+**Suspenso artificial:**
+> ❌ "Aquí está el punto clave"
+> ✅ Decilo
+
+---
+
+**Analogías innecesarias:**
+> ❌ "Es como una máquina..."
+> ✅ Explicación directa
+
+---
+
+**Inflar la importancia:**
+> ❌ "cambiará todo"
+> ✅ Decí qué cambia
+
+---
+
+**Pedagogía forzada:**
+> ❌ "Veamos esto paso a paso"
+> ✅ Empezá directamente
+
+---
+
+**Atribuciones vagas:**
+> ❌ "Expertos dicen..."
+> ✅ Nombrá o eliminá
+
+---
+
+**Conceptos inventados:**
+> ❌ "la paradoja de..."
+> ✅ Describí el hecho
+
+---
+
+### Composición
+
+**Párrafos fragmentados para dramatizar:**
+> ❌ cortes innecesarios
+> ✅ desarrollo continuo
+
+---
+
+**Estructura redundante:**
+> ❌ anunciar → desarrollar → resumir
+> ✅ desarrollar directamente
+
+---
+
+**Cierre anunciado:**
+> ❌ "En conclusión"
+> ✅ terminar sin aviso
+
+---
+
+### Revisión rápida antes de entregar
+
+- ¿Hay adverbios? Eliminarlos.
+- ¿Quién actúa? Nombrarlo.
+- ¿Hay frases vacías? Cortarlas.
+- ¿El ritmo se repite? Variarlo.
+- ¿Se explica de más? Recortar.
+
+---
+
+### Puntuación
+
+| Dimensión | Pregunta |
+|-----------|----------|
+| Precisión | ¿Dice algo concreto? |
+| Ritmo | ¿Evita monotonía? |
+| Claridad | ¿Se entiende sin esfuerzo? |
+| Naturalidad | ¿Suena humano? |
+| Densidad | ¿Se puede cortar algo? |
+
+Por debajo de 35/50: revisar.
+
+---
+
+**Resultado esperado: prosa sobria, precisa, con variación rítmica y cierta tensión interna. Cada frase cumple una función.**
+
+---
+
+## Escenario Español - Conversacional
 
 Eliminá los patrones predecibles de escritura IA. Escribí como si estuvieras charlando con un amigo: natural, directo, sin vueltas. Usá siempre español rioplatense de Montevideo, Uruguay.
 
@@ -453,6 +648,16 @@ Por debajo de 35/50: revisá.
 ## Deutsches Szenario
 
 Vorhersehbare KI-Schreibmuster beseitigen. Schreib wie ein Mensch: abwechslungsreich, nicht perfekt, konkret.
+
+---
+
+### Stilreferenz (implizit, nicht imitierend)
+
+- Friedrich Nietzsche: präzise, pointierte Sätze. Jede Aussage trägt Gewicht. Keine unnötige Erklärung.
+- Franz Kafka: nüchterner Ton, klare Sprache, unterschwellige Spannung. Nicht alles wird aufgelöst.
+- Heinrich Böll: natürliche Sprache, menschliche Perspektive, rhythmische Variation ohne Starrheit.
+
+---
 
 ### Grundregeln
 

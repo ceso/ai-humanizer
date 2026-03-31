@@ -10,7 +10,7 @@
     {
       "name": "ai-humanizer",
       "description": "Write prose that sounds human. Eliminates AI tells in English and German. Enforces ceso's natural Rioplatense style for Spanish.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "writing",
       "source": "./skills/ai-humanizer",
       "homepage": "https://github.com/ceso/ai-humanizer"

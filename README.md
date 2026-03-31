@@ -1,6 +1,6 @@
 <div align="center">
   <h1>AI Humanizer</h1>
-  <p><em>Write like a human skill for Claude Code. v1.0.0</em></p>
+  <p><em>Write like a human skill for Claude Code. v1.0.1</em></p>
   <a href="https://github.com/ceso/ai-humanizer/stargazers"><img src="https://img.shields.io/github/stars/ceso/ai-humanizer?style=flat-square" alt="Stars"></a>
   <a href="https://github.com/ceso/ai-humanizer/releases"><img src="https://img.shields.io/github/v/tag/ceso/ai-humanizer?label=version&style=flat-square" alt="Version"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License"></a>
